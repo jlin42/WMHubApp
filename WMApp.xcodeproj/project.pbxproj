@@ -94,6 +94,7 @@
 		2551B75D29D4FB4E00E80AE6 /* WMApp */ = {
 			isa = PBXGroup;
 			children = (
+				2551B78829D4FBF600E80AE6 /* Core */,
 				2551B75E29D4FB4E00E80AE6 /* WMAppApp.swift */,
 				2551B76029D4FB4E00E80AE6 /* ContentView.swift */,
 				2551B76229D4FB4F00E80AE6 /* Assets.xcassets */,
@@ -125,6 +126,45 @@
 				2551B77B29D4FB5000E80AE6 /* WMAppUITestsLaunchTests.swift */,
 			);
 			path = WMAppUITests;
+			sourceTree = "<group>";
+		};
+		2551B78829D4FBF600E80AE6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2551B78B29D4FD4C00E80AE6 /* NavBar */,
+				2551B78929D4FC4A00E80AE6 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2551B78929D4FC4A00E80AE6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2551B78B29D4FD4C00E80AE6 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				2551B78D29D4FDA800E80AE6 /* ViewModel */,
+				2551B78C29D4FD9500E80AE6 /* Views */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		2551B78C29D4FD9500E80AE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2551B78D29D4FDA800E80AE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
